@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive COntact us page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" 
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet"  type="text/css" href="{% static 'css/style1.css' %}">
+
+    <style>
+        :root {
+            --bg-image: url({% static 'img/bg.jpg' %});
+        }
+    </style>
+    
+</head>
+<body>
+    <section class="contact">
+        <div class="content" >
+            <h2>Contact us</h2>
+            <p>LAutomatic Number Plate Recognition (ANPR) is a technology that uses optical character recognition on 
+                images of vehicle registration plates to read the vehicle’s registration number.
+            </p>
+
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="Icon"></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>4671 Sugar camp Road, <br> Kalyan,<br> 554206 </p>  
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="Icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>9359795626 </p>  
+                    </div>
+                </div><br>
+                <div class="box">
+                    <div class="Icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>automationservice123@gmail.com</p>  
+                    </div><br>
+                </div>
+            </div>
+            <div class="contactForm">
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="inputBox">
+                    <textarea required="required"></textarea>
+                    <span>Type Your Message...</span>
+                </div>
+
+                <div class="inputBox">
+                <input type="Submit" name="" value="send">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>

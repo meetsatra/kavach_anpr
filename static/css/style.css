@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins&family=Sacramento&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flexbox;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-left: 440px;
+  padding-top: 100px;
+  background: linear-gradient(135deg, #71b7e6, #9B59B6);
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background-color:#fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.container .title::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background: linear-gradient(135deg, #71b7e6, #9B59B6);
+
+}
+.container form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+form .user-details .input-box{
+  margin: 20px 0 12px 0;
+  width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border-radius: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #9B59B6;
+}
+
+form .button{
+  height: 45px;
+  margin: 35px 0;
+}
+ .button input{
+  height: 100%;
+  width: 250px;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #71b7e6, #9B59B6);
+}
+ .button input:hover{
+  background: linear-gradient(-135deg, #71b7e6, #9B59B6)
+}
+@media (max-width: 584px)
+{
+  .container{
+    max-width: 100%;
+  }
+  form .user-details .input-box{
+    margin: 20px 0 12px 0;
+    width: 100%;
+  }
+  .container form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+}
+
+
+
+.container2{
+  max-width: 700px;
+  width: 100%;
+  background-color:#fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  align-items: center;
+}
+.container2 .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.container2 .title::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background: linear-gradient(135deg, #71b7e6, #9B59B6);
+
+}
+.container2 form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+form .user-details .input-box2{
+  margin: 20px 0 12px 0;
+  width: calc(100% / 2 - 20px);
+}
+.user-details .input-box2 .details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box2 input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border-radius: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box2 input:focus,
+.user-details .input-box2 input:valid{
+  border-color: #9B59B6;
+}
+form .button2{
+  height: 45px;
+  margin: 35px 0;
+}
+form .button2 input{
+  height: 100%;
+  width: 250px;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #71b7e6, #9B59B6);
+}
+ .button2 input:hover{
+  background: linear-gradient(-135deg, #71b7e6, #9B59B6)
+}

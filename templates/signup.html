@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="title">Registration</div>
+      <div class="Content">
+
+        <div>
+          <style>
+            p{
+              color: red;
+            }
+          </style>
+          {% for message in messages %}
+          <p>{{message}}</p>
+          {% endfor %}
+        </div>
+
+        <form action="" method="POST">
+          {% csrf_token %}
+          <div class="user-details">
+            <!-- <div class="input-box">
+              <span class="details">Full Name</span>
+              <input type="text" placeholder="Enter your name" required />
+            </div>
+
+            <div class="input-box">
+              <span class="details">Username</span>
+              <input type="text" placeholder="Enter the required username" required />
+            </div> -->
+
+            <div class="input-box">
+              <span class="details">Username</span>
+              <input type="text" name="username" placeholder="Enter the Username" required />
+            </div>
+
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input type="text" name="email" placeholder="Enter the Email" required />
+            </div>
+
+            <div class="input-box">
+              <span class="details">Password</span>
+              <input type="password" name="password" placeholder="Enter the Password" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Confirm Password</span>
+              <input type="password" name="password2" placeholder="Re-enter the Password" required />
+            </div>
+          </div>
+          <div class="button">
+            <input type="submit" value="Register" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <a href="/login">Already a user? Login</a>
+
+
+  </body>
+</html>

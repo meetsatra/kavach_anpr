@@ -1,0 +1,388 @@
+body{
+  font-family: "Montserrat";
+   
+
+}
+#title{
+  background-color: #9254C8;
+  color: #fff;
+  }
+  .container-fluid{
+    padding: 3% 15%
+  }
+  .card1{
+    align-items: center;
+   
+    width: 90%;
+    height: 50%;
+    background-color: #8f8f8f;
+  }
+  .img1{
+    width: 50%;
+    position: relative;
+
+  }
+  h1{
+    font-family: 'Montserrat ', sans-serif;
+
+      font-size: 2rem;
+
+      font-weight: 700;
+
+      line-height: 2;
+  }
+
+  h2{
+    font-family: 'Montserrat ', sans-serif;
+
+      font-size: 3.5rem;
+
+      font-weight: 900;
+
+      line-height: 1.5;
+  }
+
+  h3{
+    font-family: 'Montserrat', sans-sans-serif;
+    font-weight: bold;
+    
+   
+  }
+  h5{
+    display: block;
+    margin-left: 30px;
+    margin-right: -100px;
+    margin-bottom: 20px 
+  }
+ 
+
+p{
+  color: #8f8f8f;
+;
+}
+material-box-container[_ngcontent-yuh-c336] {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+
+
+  /* Navigation Bar */
+  .navbar{
+    padding-bottom:  4.5rem;
+  }
+  .navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .container{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nav-item{
+    padding: 0 18px;
+  }
+  .nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+  }
+
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat ', sans-serif;
+    font-weight: 100;
+  }
+
+/* Download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* Features Section */
+#features{
+  padding: 7% 15%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #9254C8;
+  padding: 1rem;
+}
+
+.icon:hover{
+  color: #E15FED;
+
+}
+/*
+Testimonials */
+/* #testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #9254C8;
+  color: #fff;
+} */
+/* .testimonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+} */
+
+#press{
+  background-color: #9254C8;
+  text-align: center;
+  padding-bottom: 10%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+p{
+  color:#8f8f8f;
+}
+.try-box-head{
+  margin: auto;
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+/* The dropdown container */
+/*.dropdown {
+  float: left;
+  overflow: hidden;
+}*/
+
+/* Dropdown button */
+/*.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  /* Important for vertical align on mobile phones *}
+
+/* Dropdown content (hidden by default) */
+/*.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}*/
+
+/* Links inside the dropdown */
+/*.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}*/
+
+/* Add a grey background color to dropdown links on hover */
+/*.dropdown-content a:hover {
+  background-color: #ddd;
+}*/
+
+/* Show the dropdown menu on hover */
+/*.dropdown:hover .dropdown-content {
+  display: block;
+}*/
+
+.con{
+  margin: auto;
+  width: 50%; 
+  background-color: white;
+  width: 300px;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.try-box-inner{
+  text-align:center;
+  font-size: 15px;
+}
+
+.btn-group{
+  background-color: #E15FED;
+  color: #E15FED;
+}
+
+#dr{
+  color: #fff;
+  background-color:#9254C8;
+  margin-top: 10px;
+  height: 30px;
+  width: 150px;
+}
+
+/* body { 
+  background: #009688;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+} */
+.loop-wrapper {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  width: 600px;
+  height: 250px;
+  overflow: hidden;
+  border-bottom: 3px solid #fff;
+  color: #fff;
+  background: #9254C8;
+}
+.mountain {
+  position: absolute;
+  right: -900px;
+  bottom: -20px;
+  width: 2px;
+  height: 2px;
+  box-shadow: 
+    0 0 0 50px #4DB6AC,
+    60px 50px 0 70px #4DB6AC,
+    90px 90px 0 50px #4DB6AC,
+    250px 250px 0 50px #4DB6AC,
+    290px 320px 0 50px #4DB6AC,
+    320px 400px 0 50px #4DB6AC
+    ;
+  transform: rotate(130deg);
+  animation: mtn 20s linear infinite;
+}
+.hill {
+  position: absolute;
+  right: -900px;
+  bottom: -50px;
+  width: 400px;
+  border-radius: 50%;
+  height: 20px;
+  box-shadow: 
+    0 0 0 50px #4DB6AC,
+    -20px 0 0 20px #4DB6AC,
+    -90px 0 0 50px #4DB6AC,
+    250px 0 0 50px #4DB6AC,
+    290px 0 0 50px #4DB6AC,
+    620px 0 0 50px #4DB6AC;
+  animation: hill 4s 2s linear infinite;
+}
+.tree, .tree:nth-child(2), .tree:nth-child(3) {
+  position: absolute;
+  height: 100px; 
+  width: 35px;
+  bottom: 0;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130015/tree.svg) no-repeat;
+}
+.rock {
+  margin-top: -17%;
+  height: 2%; 
+  width: 2%;
+  bottom: -2px;
+  border-radius: 20px;
+  position: absolute;
+  background: #ddd;
+}
+.truck, .wheels {
+  transition: all ease;
+  width: 85px;
+  margin-right: -60px;
+  bottom: 0px;
+  right: 50%;
+  position: absolute;
+  background: #eee;
+}
+
+.truck {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130015/truck.svg) no-repeat;
+  background-size: contain;
+  height: 60px;
+}
+.truck:before {
+  content: " ";
+  position: absolute;
+  width: 25px;
+  box-shadow:
+    -30px 28px 0 1.5px #fff,
+     -35px 18px 0 1.5px #fff;
+}
+.wheels {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130015/wheels.svg) no-repeat;
+  height: 15px;
+  margin-bottom: 0;
+}
+
+.tree  { animation: tree 3s 0.000s linear infinite; }
+.tree:nth-child(2)  { animation: tree2 2s 0.150s linear infinite; }
+.tree:nth-child(3)  { animation: tree3 8s 0.050s linear infinite; }
+.rock  { animation: rock 4s   -0.530s linear infinite; }
+.truck  { animation: truck 4s   0.080s ease infinite; }
+.wheels  { animation: truck 4s   0.001s ease infinite; }
+.truck:before { animation: wind 1.5s   0.000s ease infinite; }
+
+
+@keyframes tree {
+  0%   { transform: translate(1350px); }
+  50% {}
+  100% { transform: translate(-50px); }
+}
+@keyframes tree2 {
+  0%   { transform: translate(650px); }
+  50% {}
+  100% { transform: translate(-50px); }
+}
+@keyframes tree3 {
+  0%   { transform: translate(2750px); }
+  50% {}
+  100% { transform: translate(-50px); }
+}
+
+@keyframes rock {
+  0%   { right: -200px; }
+  100% { right: 2000px; }
+}
+@keyframes truck {
+  0%   { }
+  6%   { transform: translateY(0px); }
+  7%   { transform: translateY(-6px); }
+  9%   { transform: translateY(0px); }
+  10%   { transform: translateY(-1px); }
+  11%   { transform: translateY(0px); }
+  100%   { }
+}
+@keyframes wind {
+  0%   {  }
+  50%   { transform: translateY(3px) }
+  100%   { }
+}
+@keyframes mtn {
+  100% {
+    transform: translateX(-2000px) rotate(130deg);
+  }
+}
+@keyframes hill {
+  100% {
+    transform: translateX(-2000px);
+  }
+}
